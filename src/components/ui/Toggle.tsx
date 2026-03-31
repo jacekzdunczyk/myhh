@@ -24,7 +24,7 @@ export default function Toggle({ label, checked, onChange }: ToggleProps) {
           }`}
         />
       </button>
-      <span className={`text-sm ${checked ? "font-bold" : ""}`}>{label}</span>
+      <span className={`text-sm ${checked ? "font-semibold" : ""}`}>{label}</span>
     </label>
   );
 }

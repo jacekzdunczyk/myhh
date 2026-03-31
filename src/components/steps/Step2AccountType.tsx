@@ -20,7 +20,7 @@ export default function Step2AccountType() {
           Hi {data.firstName || "there"}, welcome to MyHeadHunter!
         </p>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+        <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-2">
           Choose your account type
         </h1>
 

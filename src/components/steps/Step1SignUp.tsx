@@ -52,7 +52,7 @@ export default function Step1SignUp() {
             </h2>
           </div>
 
-          <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+          <h1 className="text-2xl md:text-3xl font-semibold text-foreground mb-2">
             Join us for free
           </h1>
           <p className="text-muted text-sm mb-6">

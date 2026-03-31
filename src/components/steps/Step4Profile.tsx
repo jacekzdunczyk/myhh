@@ -227,7 +227,7 @@ export default function Step4Profile() {
           I am a {ACCOUNT_TYPE_LABELS[accountType]}
         </p>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+        <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-8">
           Tell us about yourself
         </h1>
 

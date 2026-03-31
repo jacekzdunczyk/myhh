@@ -83,7 +83,7 @@ export default function CheckboxGroup({
               </span>
               <span
                 className={`text-sm ${
-                  checked ? "font-bold text-foreground" : "text-foreground"
+                  checked ? "font-semibold text-foreground" : "text-foreground"
                 }`}
               >
                 {opt.label}

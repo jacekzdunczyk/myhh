@@ -27,7 +27,7 @@ export default function Step5Complete() {
           </svg>
         </div>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
+        <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-3">
           You&apos;re all set!
         </h1>
 

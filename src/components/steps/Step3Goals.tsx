@@ -17,7 +17,7 @@ export default function Step3Goals() {
           I am a {ACCOUNT_TYPE_LABELS[accountType]}
         </p>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+        <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-8">
           What are your current goals?
         </h1>
 

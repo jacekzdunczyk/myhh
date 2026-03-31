@@ -65,7 +65,7 @@ export default function RadioGroup({
             </span>
             <span
               className={`text-sm ${
-                value === opt.value ? "font-bold text-foreground" : "text-foreground"
+                value === opt.value ? "font-semibold text-foreground" : "text-foreground"
               }`}
             >
               {opt.label}
