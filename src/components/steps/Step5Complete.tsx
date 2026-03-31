@@ -9,9 +9,9 @@ export default function Step5Complete() {
   const accountType = data.accountType!;
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6">
-      <div className="w-full max-w-xl text-center">
-        <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-green-100 flex items-center justify-center">
+    <div className="min-h-screen flex items-start md:items-center justify-center px-6 pt-20 md:pt-0">
+      <div className="w-full max-w-[600px] text-center">
+        <div className="w-20 h-20 mx-auto mb-6 bg-green-100 flex items-center justify-center">
           <svg
             className="w-10 h-10 text-green-600"
             fill="none"
@@ -27,18 +27,18 @@ export default function Step5Complete() {
           </svg>
         </div>
 
-        <h1 className="text-4xl font-bold text-foreground mb-3">
+        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
           You&apos;re all set!
         </h1>
 
-        <p className="text-muted mb-8 max-w-md mx-auto">
+        <p className="text-muted mb-8 max-w-md mx-auto text-sm">
           Welcome to MyHeadHunter, {data.firstName}! Your{" "}
           <strong>{ACCOUNT_TYPE_LABELS[accountType]}</strong> account has been
           set up successfully.
         </p>
 
-        <div className="bg-surface rounded-xl p-6 mb-8 text-left">
-          <h3 className="text-sm font-semibold text-muted uppercase tracking-wider mb-4">
+        <div className="bg-surface p-6 mb-8 text-left">
+          <h3 className="text-xs font-semibold text-muted uppercase tracking-wider mb-4">
             Account Summary
           </h3>
           <dl className="space-y-3">
@@ -78,7 +78,7 @@ export default function Step5Complete() {
           <button
             type="button"
             onClick={() => alert("Navigating to dashboard...")}
-            className="px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-hover transition-colors"
+            className="px-8 py-3 bg-accent text-white text-sm font-medium hover:bg-accent-hover transition-colors"
           >
             Go to Dashboard
           </button>

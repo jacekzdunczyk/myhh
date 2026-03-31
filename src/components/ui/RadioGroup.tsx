@@ -39,7 +39,7 @@ export default function RadioGroup({
             key={opt.value}
             className={`flex items-center gap-3 cursor-pointer group ${
               layout === "vertical"
-                ? "p-3 rounded-lg hover:bg-surface transition-colors"
+                ? "p-3 hover:bg-surface transition-colors"
                 : ""
             }`}
           >

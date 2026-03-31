@@ -16,7 +16,6 @@ export default function WizardShell() {
 
   return (
     <div className="relative min-h-screen">
-      {/* Progress bar - shown from step 2 onwards */}
       {step > 1 && (
         <div className="fixed top-0 left-0 right-0 z-50">
           <div className="h-1 bg-border">
@@ -24,18 +23,6 @@ export default function WizardShell() {
               className="h-full bg-primary transition-all duration-500 ease-out"
               style={{ width: `${((step - 1) / (totalSteps - 1)) * 100}%` }}
             />
-          </div>
-          <div className="flex justify-center gap-2 py-3 bg-white/80 backdrop-blur-sm">
-            {Array.from({ length: totalSteps - 1 }, (_, i) => i + 2).map(
-              (s) => (
-                <div
-                  key={s}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    s <= step ? "bg-primary" : "bg-border"
-                  }`}
-                />
-              )
-            )}
           </div>
         </div>
       )}

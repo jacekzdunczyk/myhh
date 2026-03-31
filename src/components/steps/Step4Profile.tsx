@@ -221,13 +221,13 @@ export default function Step4Profile() {
   const ProfileComponent = profileComponents[accountType];
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 py-12">
-      <div className="w-full max-w-xl">
-        <p className="text-sm text-muted mb-2">
+    <div className="min-h-screen flex items-start md:items-center justify-center px-6 pt-20 md:pt-0 pb-12">
+      <div className="w-full max-w-[600px]">
+        <p className="text-sm text-muted mb-1">
           I am a {ACCOUNT_TYPE_LABELS[accountType]}
         </p>
 
-        <h1 className="text-4xl font-bold text-foreground mb-8">
+        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
           Tell us about yourself
         </h1>
 
@@ -244,7 +244,7 @@ export default function Step4Profile() {
           <button
             type="button"
             onClick={nextStep}
-            className="px-8 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-light transition-colors"
+            className="px-8 py-3 bg-primary text-white text-sm font-medium hover:bg-primary-light transition-colors"
           >
             Continue
           </button>

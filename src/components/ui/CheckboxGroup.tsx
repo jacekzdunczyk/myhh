@@ -59,7 +59,7 @@ export default function CheckboxGroup({
                   className="sr-only"
                 />
                 <span
-                  className={`w-6 h-6 rounded border-2 transition-colors ${
+                  className={`w-6 h-6 border-2 transition-colors ${
                     checked
                       ? "border-primary bg-primary"
                       : "border-border group-hover:border-muted"

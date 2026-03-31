@@ -28,7 +28,7 @@ export default function SelectInput({
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full px-4 py-3 bg-surface border border-border rounded-lg text-foreground focus:outline-none focus:border-border-focus focus:ring-1 focus:ring-border-focus transition-colors appearance-none"
+        className="w-full px-4 py-3 bg-surface border border-border text-foreground focus:outline-none focus:border-border-focus focus:ring-1 focus:ring-border-focus transition-colors appearance-none"
       >
         {placeholder && (
           <option value="" disabled>

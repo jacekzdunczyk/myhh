@@ -11,13 +11,13 @@ export default function Step3Goals() {
   const goals = GOALS_BY_TYPE[accountType];
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-6">
-      <div className="w-full max-w-xl">
-        <p className="text-sm text-muted mb-2">
+    <div className="min-h-screen flex items-start md:items-center justify-center px-6 pt-20 md:pt-0">
+      <div className="w-full max-w-[600px]">
+        <p className="text-sm text-muted mb-1">
           I am a {ACCOUNT_TYPE_LABELS[accountType]}
         </p>
 
-        <h1 className="text-4xl font-bold text-foreground mb-8">
+        <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
           What are your current goals?
         </h1>
 
@@ -40,7 +40,7 @@ export default function Step3Goals() {
             type="button"
             onClick={nextStep}
             disabled={data.goals.length === 0}
-            className="px-8 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-light transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+            className="px-8 py-3 bg-primary text-white text-sm font-medium hover:bg-primary-light transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
           >
             Continue
           </button>
